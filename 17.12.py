@@ -1,4 +1,4 @@
-'''class Teacher:
+class Teacher:
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -21,7 +21,7 @@ stu.change_mood()
 tec=Teacher("Nazeera",23)
 tec.show()
 tec.max_speed()
-tec.change_mood()'''
+tec.change_mood()
 
 class Library:
     def issue_book(self,book_name,user):
